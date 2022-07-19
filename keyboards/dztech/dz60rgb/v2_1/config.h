@@ -104,4 +104,8 @@
 #    define DRIVER_ADDR_1 0b1010000
 #    define DRIVER_COUNT 1
 #    define DRIVER_LED_TOTAL 63
+
+// My custom addition
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+
 #endif
