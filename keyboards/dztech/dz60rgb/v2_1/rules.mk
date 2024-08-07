@@ -21,3 +21,4 @@ GRAVE_ESC_ENABLE = no
 
 # My custom addition to rules
 CAPS_WORD_ENABLE = yes
+TAP_DANCE_ENABLE = yes
