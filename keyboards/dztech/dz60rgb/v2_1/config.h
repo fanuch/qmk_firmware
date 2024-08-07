@@ -16,6 +16,8 @@
 
 #pragma once
 
+#define IS31FL3733_I2C_ADDRESS_1 IS31FL3733_I2C_ADDRESS_GND_GND
+
 #ifdef RGB_MATRIX_ENABLE
 #    define RGB_DISABLE_WHEN_USB_SUSPENDED  // turn off effects when suspended
 #    define RGB_MATRIX_KEYPRESSES
@@ -71,11 +73,5 @@
 
 #    define DRIVER_ADDR_1 0b1010000
 #    define DRIVER_COUNT 1
-#    define DRIVER_LED_TOTAL 63
-
-// My custom addition
-#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
-#define TAP_DANCE_COUNT 1
-#define RGB_MATRIX_LED_COUNT 63
-
+#    define RGB_MATRIX_LED_COUNT 63
 #endif
